@@ -1,0 +1,124 @@
+html {
+    height: 100%;
+}
+
+
+
+.carousel-inner
+{
+    width: 500px;
+    height: 600px;
+    margin-left: 200px;
+    display:flex;
+    justify-self: unset;
+    
+}
+
+
+body {
+    background-color: #2F3035;
+    background-image: url(images/download.jfif);
+    background-size: cover;
+    background-repeat:inherit;
+    background-position: center;
+}
+
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+}
+
+header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+     padding: 5px;
+    height: 118px;
+    text-align: left;
+}
+
+nav {
+    position: absolute;
+    
+    top: 20px;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.338); 
+    text-align: center;
+    padding-top: 14px;
+    margin-left: 70px;
+    padding-bottom: 14px;
+}
+
+
+main {
+    margin-bottom: 20px;
+    height: 450px;
+    text-align: center;
+    padding-top: 0px;
+    padding-left: 46px;
+    padding-right: 46px;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.728);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+h1 {
+    font-size: 84px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main p {
+    font-size: 23px;
+    font-weight: 300;
+    margin-top: 0px;
+    background-color: rgba(0, 0, 0, 0.338);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+section iframe .ss{
+    padding-top: 500px;
+    margin-top: 50px;
+}
+
+section a{
+    position:static;
+    margin-top: 50px;
+   margin-left: 200px;
+    display:inline-block;
+    
+    padding: 20px;
+    background: red ;
+    color: white;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+nav a .spakce
+{
+    padding-left: 100px;
+    margin-right: 100px;
+}
+footer p {
+    font-size: 10px;
+    text-align: center;
+    color: rgb(198, 198, 198);
+}
+
+.maps {
+    margin-left : 200px;
+    padding-bottom: 100px;
+}
